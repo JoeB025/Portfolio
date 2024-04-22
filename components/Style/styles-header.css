@@ -1,0 +1,66 @@
+.tabs-container {
+    padding-inline: 25px;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.tab-html,
+.tab-css,
+.tab-javascript,
+.tab-react,
+.tab-svelte {
+    color: teal;
+}
+
+.tab-html:hover {
+    color: red;
+    transition: ease-in-out;
+}
+
+
+.tab-css:hover {
+    color: blue;
+    transition: ease-in-out;
+}
+
+.tab-javascript:hover {
+    color: yellow;
+    transition: ease-in-out;
+}
+
+
+.tab-react:hover {
+    color: rgb(0, 149, 255);
+    transition: ease-in-out;
+}
+
+.tab-svelte:hover {
+    color: rgb(187, 0, 255);
+    transition: ease-in-out;
+}
+
+
+.introduction {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
