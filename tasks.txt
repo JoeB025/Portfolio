@@ -1,0 +1,8 @@
+Task 1 - Create site - Done 
+Task 2 - Style site for website - Done 
+Task 4 - Ensure all Links work properly - Done  
+Task 5 - Host Site with Netlify - Done 
+Task 6 - Style site for mobile - 
+Task 7 - Find a way to get your profile picture to upload.
+Task 8 - Create Links for the HTML, CSS, JS, React and SQL with descriptions 
+Task 9 - 

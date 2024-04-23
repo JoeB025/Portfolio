@@ -1,54 +1,25 @@
+/* Small devices */ 
+
+@media only screen and (max-width: 767px) {
+
 .card-container {
   display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.app-container,
-.website-container,
-.tech-used-cont {
-  width: 350px;
-  justify-content: center;
-  text-align: center;
+
+.website-container {
+  order: 2;
 }
 
-.web-desc-cont {
-  margin-top: 30px;
-}
-
-.description-container {
-  height: 400px;
-}
-
-.tech-used-cont {
-  height: 220px;
-}
-
-.site-link {
-  color: rgb(0, 134, 252);
-}
-
-.section-title {
-  font-size: 15px;
-  color: teal;
-}
-
-.web-desc-text,
-.tech-used {
-  text-align: justify;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 14px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #9e9e9e;
-}
-
-.tech-used {
-  text-align: center;
+.app-container {
+  order: 3;
 }
 
 .card {
-    width: 300px;
+    order: 1;
+    width: 55vw;
     background-color: #080a0d;
     border-style: solid;
     border-color: white;
@@ -58,47 +29,46 @@
     text-align: center;
     overflow: hidden;
     align-items: center;
-    padding-top: 150px;
-    padding-bottom: 100px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-top: 10vw;
+    padding-bottom: 20vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
   }
   
   .image-container {
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
     overflow: hidden;
-    margin-top: -40px;
   }
   .image-container img {
     object-fit:cover ;
   }
 
   .profile-img {
-    height: 15vw;
-    width: 15vw;
+    height: 25vw;
+    width: 25vw;
     border-radius: 200px;
   }
 
   .content {
-    padding: 24px 16px;
+    padding: 2vw 1vw;
   }
   
   .profile-name {
-    font-size: 26px;
+    font-size: 3vw;
     font-weight: 900;
     margin-bottom: 4px;
   }
   .job-title {
-    font-size: 12px;
+    font-size: 2vw;
     font-weight: 700;
     letter-spacing: 1px;
     color: #ce23a6;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
   }
   .description {
-    font-size: 14px;
+    font-size: 2vw;
     letter-spacing: 1px;
     color: #9e9e9e;
   }
@@ -111,8 +81,9 @@
     border-top: 1px solid #cfcfcf;
     transition: height 0.3s ease;
   }
+
   .card:hover .social-links {
-    height: 65px;
+    height: 50px;
   }
   
   .social-links .instagram {
@@ -126,7 +97,7 @@
   }
   
   .social-links > a {
-    font-size: 20px;
+    font-size: 3vw;
     padding-block: 20px;
     color: var(--color);
     flex: 1;
@@ -148,12 +119,242 @@
     font-size: 2px; 
   }
 
-  .status-notice {
+
+  .app-container,
+  .website-container {
+    padding-top: 5vw;
+    margin-top: 5vw;
+    border-radius: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .app-container:hover,
+  .website-container:hover {
+    border: solid grey 3px;
+  }
+
+  .content-type {
+    font-size: 3vw;
+    text-align: left;
+    padding-left: 3vw;
+  }
+
+  .site-link {
     color: #0077b5;
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+ .section-title {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: -1vw;
+  }
+
+ 
+
+  .description-container {
+    margin-bottom: 5vw;
+  }
+
+  .web-desc-text {
+    text-align: justify;
+    color: #9e9e9e;
+    font-size: 2.5vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+    line-height: 3.5vw;
   }
 
 
+  .tech-used {
+    font-size: 2.5vw;
+    text-align: center;
+    color: #9e9e9e;
+    line-height: 3.5vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+
+
+  .status-notice {
+    color: #b50054;
+    text-align: center;
+    font-size: 2.5vw;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices */
+
+@media only screen and (min-width: 768px) {
+
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+  }
+  
+  .app-container,
+  .website-container,
+  .tech-used-cont {
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .web-desc-cont {
+    margin-top: 30px;
+  }
+  
+  .description-container {
+    height: 400px;
+  }
+  
+  .tech-used-cont {
+    height: 220px;
+  }
+  
+  .site-link {
+    color: rgb(0, 134, 252);
+  }
+  
+  .section-title {
+    font-size: 15px;
+    color: teal;
+  }
+  
+  .web-desc-text,
+  .tech-used {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #9e9e9e;
+  }
+  
+  .tech-used {
+    text-align: center;
+  }
+  
+  .card {
+      width: 300px;
+      background-color: #080a0d;
+      border-style: solid;
+      border-color: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      text-align: center;
+      overflow: hidden;
+      align-items: center;
+      padding-top: 150px;
+      padding-bottom: 100px;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    
+    .image-container {
+      border-top-left-radius: inherit;
+      border-top-right-radius: inherit;
+      overflow: hidden;
+      margin-top: -40px;
+    }
+    .image-container img {
+      object-fit:cover ;
+    }
+  
+    .profile-img {
+      height: 15vw;
+      width: 15vw;
+      border-radius: 200px;
+    }
+  
+    .content {
+      padding: 24px 16px;
+    }
+    
+    .profile-name {
+      font-size: 26px;
+      font-weight: 900;
+      margin-bottom: 4px;
+    }
+    .job-title {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #ce23a6;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .description {
+      font-size: 14px;
+      letter-spacing: 1px;
+      color: #9e9e9e;
+    }
+  
+    
+    .social-links {
+      width: 100%;
+      display: flex;
+      height: 0;
+      border-top: 1px solid #cfcfcf;
+      transition: height 0.3s ease;
+    }
+    .card:hover .social-links {
+      height: 65px;
+    }
+    
+    .social-links .instagram {
+      --color: #ee5487;
+    }
+    .social-links .linkedin {
+      --color: #0077b5;
+    }
+    .social-links .twitter {
+      --color: #bbc52b;
+    }
+    
+    .social-links > a {
+      font-size: 20px;
+      padding-block: 20px;
+      color: var(--color);
+      flex: 1;
+    }
+    
+    .social-links > a:not(:last-child) {
+      border-right: 1px solid #cfcfcf;
+    }
+    .social-links > a:hover {
+      background-color: var(--color);
+    }
+    .social-links > a:hover > i {
+      color: white;
+    }
+    
+    .p1 {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 2px; 
+    }
+  
+    .status-notice {
+      color: #0077b5;
+      border-radius: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+      padding-top: 3px;
+    }
+}
