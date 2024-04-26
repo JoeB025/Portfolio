@@ -54,24 +54,28 @@
     padding-inline: 20px;
     position: relative;
     text-align: center;
-    margin-top: 10vw;
-    margin-bottom: 5vw;
+    margin-top: 30vw;
+    margin-bottom: 8vw;
 }
 
 .main-heading {
     font-size: 3.5vw;
     letter-spacing: 5px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: -5px;
 }
 
 .job-role {
-    font-size: 3vw;
+    font-size: 2.75vw;
     letter-spacing: 3px;
+    color: #ce23a6;
+    margin-bottom: 8vw;
 }
 
 .intro-text {
-    font-size: 2.8vw;
+    font-size: 2.7vw;
+    color: grey;
+    margin-bottom: -5px;
 }
 
 }
@@ -144,8 +148,16 @@
     }
     
     .job-role {
-        font-size: 18px;
+        font-size: 22px;
         letter-spacing: 5px;
+        margin-bottom: 50px;
+    }
+
+    .intro-text {
+        color: grey;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        margin-bottom: -5px;
     }
 
 }

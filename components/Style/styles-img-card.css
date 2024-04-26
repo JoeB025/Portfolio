@@ -19,7 +19,7 @@
 
 .card {
     order: 1;
-    width: 55vw;
+    width: 65vw;
     background-color: #080a0d;
     border-style: solid;
     border-color: white;
@@ -29,10 +29,11 @@
     text-align: center;
     overflow: hidden;
     align-items: center;
-    padding-top: 10vw;
-    padding-bottom: 20vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     padding-right: 3vw;
     padding-left: 3vw;
+    margin-bottom: 12vw;
   }
   
   .image-container {
@@ -45,22 +46,22 @@
   }
 
   .profile-img {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 200px;
   }
 
   .content {
-    padding: 2vw 1vw;
+    padding: 1vw 1vw;
   }
   
   .profile-name {
-    font-size: 3vw;
+    font-size: 4.5vw;
     font-weight: 900;
     margin-bottom: 4px;
   }
   .job-title {
-    font-size: 2vw;
+    font-size: 2.75vw;
     font-weight: 700;
     letter-spacing: 1px;
     color: #ce23a6;
@@ -68,7 +69,7 @@
     margin-bottom: 2vw;
   }
   .description {
-    font-size: 2vw;
+    font-size: 2.25vw;
     letter-spacing: 1px;
     color: #9e9e9e;
   }
@@ -83,7 +84,7 @@
   }
 
   .card:hover .social-links {
-    height: 50px;
+    height: 60px;
   }
   
   .social-links .instagram {
@@ -97,7 +98,7 @@
   }
   
   .social-links > a {
-    font-size: 3vw;
+    font-size: 5vw;
     padding-block: 20px;
     color: var(--color);
     flex: 1;
@@ -112,12 +113,26 @@
   .social-links > a:hover > i {
     color: white;
   }
+
+  .contact-details-container {
+    margin-top: 18vw;
+  }
+
+  .contact-details-heading {
+    font-size: 3.25vw;
+  }
+
+  .contact-details {
+    font-size: 2.75vw;
+    color: grey;
+    justify-content: space-between;
+  }
   
-  .p1 {
+  /* .p1 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2px; 
-  }
+  } */
 
 
   .app-container,
@@ -216,14 +231,17 @@
   
   .web-desc-cont {
     margin-top: 30px;
+    border-radius: 20px;
   }
   
   .description-container {
-    height: 400px;
+    height: 480px;
+    border: solid teal 2px;
+    border-radius: 20px;
   }
   
   .tech-used-cont {
-    height: 220px;
+    height: 250px;
   }
   
   .site-link {
@@ -231,7 +249,7 @@
   }
   
   .section-title {
-    font-size: 15px;
+    font-size: 16px;
     color: teal;
   }
   
@@ -240,7 +258,8 @@
     text-align: justify;
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 14px;
+    font-size: 15px;
+    line-height: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #9e9e9e;
   }
@@ -250,7 +269,8 @@
   }
   
   .card {
-      width: 300px;
+      width: 350px;
+      min-width: 250px;
       background-color: #080a0d;
       border-style: solid;
       border-color: white;
@@ -261,7 +281,7 @@
       overflow: hidden;
       align-items: center;
       padding-top: 150px;
-      padding-bottom: 100px;
+      padding-bottom: 50px;
       padding-right: 50px;
       padding-left: 50px;
     }
@@ -270,15 +290,15 @@
       border-top-left-radius: inherit;
       border-top-right-radius: inherit;
       overflow: hidden;
-      margin-top: -40px;
+      margin-top: -80px;
     }
     .image-container img {
       object-fit:cover ;
     }
   
     .profile-img {
-      height: 15vw;
-      width: 15vw;
+      height: 11vw;
+      width: 11vw;
       border-radius: 200px;
     }
   
@@ -343,13 +363,28 @@
     .social-links > a:hover > i {
       color: white;
     }
+
+    .contact-details-container {
+      margin-top: 130px;
+    }
+
+    .contact-details-heading {
+      font-size: 22px;
+      text-decoration: underline;
+    }
+
+    .contact-details {
+      font-size: 14px;
+      color: grey;
+      justify-content: space-between;
+    }
     
-    .p1 {
+    /* .p1 {
       color: white;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 2px; 
-    }
-  
+    }  */
+   
     .status-notice {
       color: #0077b5;
       border-radius: 10px;
