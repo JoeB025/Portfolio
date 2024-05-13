@@ -1,0 +1,47 @@
+/* Small devices */ 
+
+@media only screen and (max-width: 767px) {
+
+  .footer-container {
+    background-color: #2d3f41;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-heading {
+    font-size: 18px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+    font-weight: 100;
+    display: block;
+    margin-left: 2px;
+  }
+
+  .footer-contact-details {
+    font-size: 11px;
+    color: grey;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: -40px;
+    line-height: 20px;
+  }
+
+}
+
+
+
+/* Large devices */
+
+@media only screen and (min-width: 768px) {
+
+.footer-container {
+  background-color: #2d3f41;
+  padding: 20px;
+}
+
+}

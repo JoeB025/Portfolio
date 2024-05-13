@@ -1,9 +1,30 @@
-body {
-    background-color: #080a0d;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+/* Small devices */ 
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        background: linear-gradient(to right, #0c1f23, #334d50, #0c1f23);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    * {
+        color: rgb(255, 255, 255);
+    }
+
 }
 
+
+/* Large devices */
+
+@media only screen and (min-width: 768px) {
+
+body {
+    background: linear-gradient(to right, #0c1f23, #334d50, #0c1f23);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 * {
-    color: teal;
+    color: rgb(255, 255, 255);
 }
  
+}
+
+

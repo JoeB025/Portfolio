@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -22,105 +22,61 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./components/Style/projects.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./components/Style/about-experience.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./components/Style/footer.css"
+    />
     <title>Portfolio</title>
   </head>
 
   <body>
     <header id="header">
       <nav class="tabs-container">
-        <a class="tab-html">HTML</a>
-        <a class="tab-css">CSS</a>
-        <a class="tab-javascript">JavaScript</a>
-        <a class="tab-react">React</a>
-        <a class="tab-svelte">SQL</a>
+        <a class="tab-profile-card">Profile Card</a>
+        <a class="tab-about">About</a>
+        <a class="tab-experience">Experience</a>
+        <a class="tab-projects">Projects</a>
+        <a class="tab-contact">Contact</a>
+        <a class="tab-git-hub">Git-Hub</a>
       </nav>
+
       <div class="introduction">
         <h1 class="main-heading">Joseph Scott-Bentley</h1>
         <p class="job-role">Junior Software Developer</p>
-        <p class="intro-text">
-          Welcome to my Portfolio Page</p> 
-          <p class="intro-text">Please scroll down to view my profile card and
-          software projects</p>
-        </p>
+        <p class="intro-welcome-text">Welcome to my Portfolio Page</p>
       </div>
     </header>
 
-    <div class="card-container">
-      <div class="app-container">
-        <h1 class="content-type">Application</h1>
-        <a
-          href="https://www.youtube.com/watch?v=YvztegUEb8o&t=0s"
-          target="_blank"
-          class="site-link"
-          >ReadCycle</a
-        >
-
-        <div class="web-desc-cont">
-          <div class="description-container">
-          <p class="section-title">Description</p>
-          <p class="web-desc-text">
-            The ReadCycle app is a dynamic book exchange platform developed as the final project of the Northcoders bootcamp by a team of six developers.
-
-          </p>
-          <p class="web-desc-text">
-            
-            ReadCycle features automatic location mapping, real-time chat functionality, API interactions, and real-time database synchronization to ensure a seamless user experience.
-          </p>
-          <p class="web-desc-text">
-            Users can post books for swapping, search for books using search bars and a built-in map feature, and engage in open-ended discussions via a built-in chat feature. The platform allows users to effortlessly upload books to the database, which are then automatically displayed on the map. Additionally, users can save books to their favorites page and easily delete any books they have uploaded.
-          </p>
-</div>
-          <div class="tech-used-cont">
-            <p class="tech-used">
-              <p class="section-title">Back-end</p>
-              <p class="tech-used">
-              Firebase | Axios </p>
-            </p>
-            <p class="section-title">Frontend</p>
-            <p class="tech-used">HTML | CSS | React Native | JavaScript</p>
-            <p class="section-title">Hosting</p>
-            <p class="tech-used">Expo</p>
-            
-          </div>
-          <p class="status-notice">Status: Complete</p>
-        </div>
-
-
-      </div>
-
+    <section id="profile-card-container" class="profile-card-container">
       <div class="card">
-        <div class="image-container">
-
-
-<!-- <a href="https://imgur.com/aE4ZBTg">
-  <img src="https://i.imgur.com/aE4ZBTg.png" class="profile-img" title="source: imgur.com" />
-</a> -->
-
-<!-- <a href="https://imgur.com/jvcZ1X2">
-  <img src="https://i.imgur.com/jvcZ1X2.png" class="profile-img" title="source: imgur.com" />
-</a> -->
-
-<!-- <a href="https://imgur.com/3D6i4XR">
-  <img src="https://i.imgur.com/3D6i4XR.png" class="profile-img" title="source: imgur.com" />
-</a> -->
-
-<!-- <a href="https://imgur.com/7ndF8zV">
-  <img src="https://i.imgur.com/7ndF8zV.png" class="profile-img" title="source: imgur.com" />
-</a> -->
-
-<a href="https://imgur.com/y6oUjsp">
-  <img src="https://i.imgur.com/y6oUjsp.png" class="profile-img" title="source: imgur.com" />
-</a>
-
+        <div class="profile-image-container">
+          <a>
+            <img
+              src="https://i.imgur.com/y6oUjsp.png"
+              class="profile-img"
+              title="Profile Picture"
+            />
+          </a>
         </div>
+
         <div class="content">
           <h2 class="profile-name">Software Developer</h2>
           <p class="job-title">Northcoders Graduate</p>
           <p class="description">
-            Northcoders Graduate 2024 
-            <br>
-            BA Hons in
-            Accounting and Master of Arts in Accounting and Finance
+            Northcoders Graduate 2024
+            <br />
+            BA Hons in Accounting and Master of Arts in Accounting and Finance
           </p>
         </div>
         <div class="social-links">
@@ -143,66 +99,301 @@
           </a>
         </div>
 
-
         <div class="contact-details-container">
           <h1 class="contact-details-heading">Contact</h1>
           <p class="contact-details">07746804786</p>
           <p class="contact-details">jscottbentley@hotmail.com</p>
         </div>
-        
       </div>
+    </section>
 
-      <div class="website-container">
-        <h1 class="content-type">Website</h1>
-        <a href="https://galactic-gateway.netlify.app" target="_blank" class="site-link"
-          >Galactic Gateway</a
+    <section id="about-section" class="about-section">
+      <div class="about-container">
+        <h1 class="about-heading">About Me</h1>
+        <p class="about-text">
+          Hello, I'm Joe. Thank you for visiting my portfolio.
+        </p>
+        <p class="about-text">
+          As a Software Developer, I began my journey by learning HTML and CSS
+          on freeCodeCamp, where I discovered a passion for coding and its
+          creative potential. Transitioning to JavaScript, I became determined
+          to solve every challenge I encountered and sought out more advanced
+          problems. This led me to pursue a career in Software Development.
+        </p>
+        <p class="about-text">
+          I researched reputable bootcamps that would provide me with the
+          experience required to continue my journey. This led me to the
+          Northcoders Full-Stack Software Development Bootcamp, where I acquired
+          the necessary skills to embark on my career as a Software Developer.
+        </p>
+        <p class="about-text">
+          With experience spanning multiple industries, I've cultivated a
+          versatile skill set. Proficient in communication, leadership,
+          problem-solving, and possessing meticulous attention to detail, I
+          offer a distinctive blend of qualities perfectly suited for the tech
+          industry.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience-section" class="experience-section">
+      <div class="experience-container">
+        <h1 class="experience-heading">Experience</h1>
+
+        <p class="experience-text-sub-head">
+          <i class="fas fa-laptop-code"></i> Frontend Developer
+          <span class="experience-text">I have experience creating accessible and responsive websites and
+            applications.
+          </span>
+        </p>
+
+        <p class="experience-text-sub-head">
+          <i class="fas fa-server"></i> Backend:
+          <span class="experience-text">
+            I have built and tested APIs, and I am experienced in creating and
+            seeding databases.
+          </span>
+        </p>
+
+        <p class="experience-text-sub-head">
+          <i class="fas fa-users"></i> Paired Programming:
+          <span class="experience-text">
+            I have experience in paired programming, agile working practices,
+            and I have demonstrated the ability to work well in a team.
+          </span>
+        </p>
+      </div>
+    </section>
+
+    <section id="projects-section" class="projects-section">
+      
+      
+      <div class="project-containers">
+        <a
+          href="https://galactic-gateway.netlify.app"
+          target="_blank"
+          class="site-link"
+          ><h1 class="project-title">Galactic Gateway</h1></a
         >
-        <div class="web-desc-cont">
-          <div class="description-container">
-          <p class="section-title">Description</p>
-          <p class="web-desc-text">
+        <div class="project-img-container">
+          <a href="https://galactic-gateway.netlify.app" target="_blank">
+            <img
+              src="https://imgur.com/HqWmkj3.png"
+              class="project-img"
+              title="Galactic GateWay Website Photo"
+            />
+          </a>
+        </div>
+        <div class="project-buttons-container">
+          <button
+            onclick="toggleDescription('gg-project-description')"
+            class="description-button"
+          >
+            Description
+          </button>
+          <button
+            onclick="toggleDescription('gg-project-software')"
+            class="software-button"
+          >
+            Software
+          </button>
+          <button
+            onclick="toggleDescription('gg-details-button')"
+            class="details-button"
+          >
+            Details
+          </button>
+        </div>
+
+        <div
+          id="gg-project-description"
+          class="project-description"
+          style="display: none"
+        >
+        <p class="description-title">Description</p>
+          <p class="description-text">
             Galactic Gateway is your portal to the wonders of the universe.
             Here, users can immerse themselves in a wealth of space-related
             articles, engaging with captivating content about our solar system,
             its planets and moons, the myriad of suns, black holes, and much
             more within the Milky Way galaxy.
           </p>
-          <p class="web-desc-text">
+          <p class="description-text">
             On Galactic Gateway, users can read, like, and comment on the
             fascinating information provided. They have the freedom to explore
             all the content available, and even delete any comments they have
             previously posted. Embark on your cosmic journey today.
           </p>
-          <p class="web-desc-text">
+
+          <p class="description-text">
             Using the Link above, explore Galactic Gateway and unlock the
             mysteries of the universe!
           </p>
-</div>
-          <div class="tech-used-cont">
-            <p class="tech-used">
-              <p class="section-title">Back-end</p>
-              <p class="tech-used">
-              SQL | PostgresSQL | Node.js | Seeding | Test Driven
-              Development (TDD) | Model-View-Controller Architecture (in
-              JavaScript)</p>
-            </p>
-            <p class="section-title">Frontend</p>
-            <p class="tech-used">HTML | CSS | React | JavaScript</p>
-            <p class="section-title">Hosting</p>
-            <p class="tech-used">Netlify | Render</p>
+
           </div>
-          <p class="status-notice">Status: On going</p>
+
+
+          <div     
+          id="gg-project-software"
+          class="project-description"
+          style="display: none">
+          <p class="development-software-title">Development Software</p>
+          <p class="developer-type">Back-end</p>
+          <p class="developer-tools">
+            SQL | PostgresSQL | Node.js | Seeding | Test Driven Development
+            (TDD) | Model-View-Controller Architecture (in JavaScript)
+          </p>
+
+          <p class="developer-type">Frontend</p>
+          <p class="developer-tools">HTML | CSS | React | JavaScript</p>
+
+          <p class="developer-type">Hosting</p>
+          <p class="developer-tools">Netlify | Render</p>
+          
+        </div>
+
+        <div
+          id="gg-details-button"
+          class="project-details"
+          style="display: none"
+        >
+        <p class="details-content">Type: 
+          <span>Website</span>
+        </p>
+        <p class="details-content">Development Status: 
+          <span>Incomplete</span>
+        </p>
+        <p class="details-content">Theme: 
+          <span>Space | Solar System | Planets</span>
+        </p>
+        <p class="details-content">Developed: 
+          <span>Solo</span>
+        </p>
         </div>
       </div>
-    </div>
 
-    <script></script>
+
+
+
+      <div class="project-containers">
+        <a
+          href="https://www.youtube.com/watch?v=YvztegUEb8o&t=0s"
+          target="_blank"
+          class="site-link"
+          ><h1 class="project-title">ReadCycle</h1></a
+        >
+        <div class="project-img-container">
+          <a href="https://www.youtube.com/watch?v=YvztegUEb8o&t=0s" target="_blank">
+            <img
+              src="https://imgur.com/io5cMqF.png"
+              class="project-img"
+              title="ReadCycle App Photo"
+            />
+          </a>
+        </div>
+        <div class="project-buttons-container">
+          <button
+            onclick="toggleDescription('readCycle-project-description')"
+            class="description-button"
+          >
+            Description
+          </button>
+          <button
+            onclick="toggleDescription('readCycle-project-software')"
+            class="software-button"
+          >
+            Software
+          </button>
+          <button
+            onclick="toggleDescription('readCycle-details-button')"
+            class="details-button"
+          >
+            Details
+          </button>
+        </div>
+
+        <div
+          id="readCycle-project-description"
+          class="project-description"
+          style="display: none"
+        >
+        <p class="description-title">Description</p>
+          <p class="description-text">
+            The ReadCycle app is a dynamic book exchange platform developed as the final project of the Northcoders bootcamp by a team of six developers.
+          </p>
+          <p class="description-text">
+            ReadCycle features automatic location mapping, real-time chat functionality, API interactions, and real-time database synchronization to ensure a seamless user experience.
+          </p>
+
+          <p class="description-text">
+            Users can post books for swapping, search for books using search bars and a built-in map feature, and engage in open-ended discussions via a built-in chat feature. The platform allows users to effortlessly upload books to the database, which are then automatically displayed on the map. Additionally, users can save books to their favorites page and easily delete any books they have uploaded.
+          </p>
+
+          </div>
+
+
+          <div     
+          id="readCycle-project-software"
+          class="project-description"
+          style="display: none">
+          <p class="development-software-title">Development Software</p>
+          <p class="developer-type">Back-end</p>
+          <p class="developer-tools">
+            Firebase | Axios
+          </p>
+
+          <p class="developer-type">Frontend</p>
+          <p class="developer-tools">HTML | CSS | React Native | JavaScript</p>
+
+          <p class="developer-type">Hosting</p>
+          <p class="developer-tools">Expo</p>
+          
+        </div>
+
+        <div
+          id="readCycle-details-button"
+          class="project-details"
+          style="display: none"
+        >
+        <p class="details-content">Type: 
+          <span>App</span>
+        </p>
+        <p class="details-content">Development Status: 
+          <span>Complete</span>
+        </p>
+        <p class="details-content">Theme: 
+          <span>Books | Discussion | Trade</span>
+        </p>
+        <p class="details-content">Developed: 
+          <span>Team of 6</span>
+        </p>
+        </div>
+      </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <script src="/index.js"></script>
   </body>
 
-  <footer></footer>
-</html> 
+  <footer id="footer-section" class="footer-container">
 
+    <h1 class="footer-heading">Get in Touch
+      <span class="footer-text">Ready to connect?</span>
+    </h1>
 
-
-
-
+    <ul class="footer-contact-details">
+      <li><i class="fa-solid fa-envelope"></i> jscottbentley@hotmail.com</li>
+      <li><i class="fa-brands fa-linkedin"></i> Joseph Scott-Bentley</li>
+      <li><i class="fa-brands fa-github"></i> JoeB025</li>
+    </ul>
+  </footer>
+</html>
