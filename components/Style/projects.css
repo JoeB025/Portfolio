@@ -10,7 +10,8 @@
   
   .project-containers {
     border: rgb(255, 255, 255) 2px solid;
-    width: 250px;
+    max-width: 350px;
+    width: 300px;
     min-width: 250px;
     padding: 10px;
     margin-bottom: 40px;
@@ -93,6 +94,20 @@
     margin-top: 30px;
   }
 
+  .details-data {
+    display: block;
+    margin-top: 8px;
+    font-size: 10px;
+  }
+  
+  .project-git-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+
 }
 
 
@@ -165,6 +180,7 @@
   border-radius: 100px;
   margin-bottom: 20px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .description-title,
@@ -174,7 +190,7 @@
 }
 
 .description-text {
-  font-size: 14px;
+  font-size: 12px;
   padding-left: 10px;
   padding-right: 10px;
   text-align: justify;
@@ -204,7 +220,26 @@
 
 .details-content {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+.details-content:hover {
+  color: rgb(217, 76, 76);
+}
+
+.details-data {
+  display: block;
+  margin-top: 8px;
+  font-size: 11px;
+}
+
+.project-git-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-bottom: 5px;
 }
 
 }

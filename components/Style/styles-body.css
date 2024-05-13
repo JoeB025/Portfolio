@@ -3,7 +3,7 @@
 @media only screen and (max-width: 767px) {
 
     body {
-        background: linear-gradient(to right, #0c1f23, #334d50, #0c1f23);
+        background: linear-gradient(to right, #dd4f4f, #d67719, #dd4f4f);
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
     * {

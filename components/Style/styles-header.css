@@ -10,14 +10,9 @@
         margin-top: 20px;
       }
     
-    .tab-about:hover,
-    .tab-experience:hover,
-    .tab-projects:hover,
-    .tab-contact:hover,
-    .tab-profile-card:hover,
-    .tab-git-hub:hover {
-        color: rgb(248, 0, 0);
-        cursor: pointer;
+
+    .tab-git-hub {
+        text-decoration: none;
     }
     
     .introduction {
@@ -90,6 +85,10 @@
     .tab-git-hub:hover {
         color: rgb(248, 0, 0);
         cursor: pointer;
+    }
+
+    .tab-git-hub {
+        text-decoration: none;
     }
     
     .introduction {
