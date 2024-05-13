@@ -6,3 +6,4 @@ Task 6 - Style site for mobile -
 Task 7 - Find a way to get your profile picture to upload.
 Task 8 - Create Links for the HTML, CSS, JS, React and SQL with descriptions 
 Task 9 - 
+

@@ -1,0 +1,210 @@
+/* Small devices */ 
+
+@media only screen and (max-width: 767px) {
+
+  .projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-containers {
+    border: rgb(255, 255, 255) 2px solid;
+    width: 250px;
+    min-width: 250px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+  
+  .project-title {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .project-img-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .project-img {
+    width: 140px;
+    height: 90px;
+    border-radius: 5px;
+  }
+  
+  .project-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .description-button,
+  .software-button,
+  .details-button {
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 10px;
+    padding: 3px;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .description-title,
+  .development-software-title {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .description-text {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    line-height: 20px;
+  }
+  
+  .developer-type {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    margin-bottom: -5px;
+  }
+  
+  .developer-type:hover {
+    color: rgb(217, 76, 76);
+  }
+  
+  .developer-tools {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .details-content {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices */
+
+@media only screen and (min-width: 768px) {
+
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  
+}
+
+.project-containers {
+  border: rgb(255, 255, 255) 2px solid;
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 18px;
+}
+
+.project-img-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.project-img {
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.project-img:hover {
+  width: 255px;
+  transition: ease-in-out 0.5s;
+}
+
+.project-buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+.description-button,
+.software-button,
+.details-button {
+  border: solid rgb(255, 255, 255) 2px;
+  font-size: 13px;
+  padding: 5px;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  background-color: inherit;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.description-title,
+.development-software-title {
+  text-align: center;
+  font-size: 18px;
+}
+
+.description-text {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.developer-type {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  margin-bottom: -5px;
+}
+
+.developer-type:hover {
+  color: rgb(217, 76, 76);
+}
+
+.developer-tools {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.details-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+}

@@ -2,81 +2,68 @@
 
 @media only screen and (max-width: 767px) {
 
-.tabs-container {
-    padding-inline: 25px;
-    font-size: 3vw;
-    padding-top: 5px;
-    display: flex;
-    justify-content: space-between;
-  }
+    .tabs-container {
+        padding-inline: 25px;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+    
+    .tab-about:hover,
+    .tab-experience:hover,
+    .tab-projects:hover,
+    .tab-contact:hover,
+    .tab-profile-card:hover,
+    .tab-git-hub:hover {
+        color: rgb(248, 0, 0);
+        cursor: pointer;
+    }
+    
+    .introduction {
+        height: 100vh;
+        margin-bottom: -50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 20px;
+        position: relative;
+        text-align: center;
+    }
+    
+    .main-heading {
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-family:'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    .job-role {
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
-.tab-html,
-.tab-css,
-.tab-javascript,
-.tab-react,
-.tab-svelte {
-    color: teal;
-}
+    .intro-welcome-text {
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
 
-.tab-html:hover {
-    color: red;
-    transition: ease-in-out;
-}
-
-
-.tab-css:hover {
-    color: blue;
-    transition: ease-in-out;
-}
-
-.tab-javascript:hover {
-    color: yellow;
-    transition: ease-in-out;
-}
-
-
-.tab-react:hover {
-    color: rgb(0, 149, 255);
-    transition: ease-in-out;
-}
-
-.tab-svelte:hover {
-    color: rgb(187, 0, 255);
-    transition: ease-in-out;
-}
-
-
-.introduction {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-inline: 20px;
-    position: relative;
-    text-align: center;
-    margin-top: 30vw;
-    margin-bottom: 8vw;
-}
-
-.main-heading {
-    font-size: 3.5vw;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    margin-bottom: -5px;
-}
-
-.job-role {
-    font-size: 2.75vw;
-    letter-spacing: 3px;
-    color: #ce23a6;
-    margin-bottom: 8vw;
-}
-
-.intro-text {
-    font-size: 2.7vw;
-    color: grey;
-    margin-bottom: -5px;
-}
+    .intro-text {
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        font-family: 'Times New Roman', Times, serif;
+        border: solid red 2px;
+        padding-right: 200px;
+        padding-left: 200px;
+    }
 
 }
 
@@ -88,49 +75,26 @@
 
     .tabs-container {
         padding-inline: 25px;
-        font-size: 2vw;
+        font-size: 16px;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
+        gap: 30px;
+        margin-top: 20px;
       }
     
-    .tab-html,
-    .tab-css,
-    .tab-javascript,
-    .tab-react,
-    .tab-svelte {
-        color: teal;
+    .tab-about:hover,
+    .tab-experience:hover,
+    .tab-projects:hover,
+    .tab-contact:hover,
+    .tab-profile-card:hover,
+    .tab-git-hub:hover {
+        color: rgb(248, 0, 0);
+        cursor: pointer;
     }
-    
-    .tab-html:hover {
-        color: red;
-        transition: ease-in-out;
-    }
-    
-    
-    .tab-css:hover {
-        color: blue;
-        transition: ease-in-out;
-    }
-    
-    .tab-javascript:hover {
-        color: yellow;
-        transition: ease-in-out;
-    }
-    
-    
-    .tab-react:hover {
-        color: rgb(0, 149, 255);
-        transition: ease-in-out;
-    }
-    
-    .tab-svelte:hover {
-        color: rgb(187, 0, 255);
-        transition: ease-in-out;
-    }
-    
     
     .introduction {
         height: 100vh;
+        margin-bottom: -30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -143,6 +107,7 @@
     .main-heading {
         font-size: 40px;
         letter-spacing: 10px;
+        font-family:'Times New Roman', Times, serif;
         text-transform: uppercase;
         margin-bottom: 20px;
     }
@@ -150,14 +115,26 @@
     .job-role {
         font-size: 22px;
         letter-spacing: 5px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .intro-welcome-text {
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
     }
 
     .intro-text {
-        color: grey;
-        font-size: 14px;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
         letter-spacing: 0.5px;
-        margin-bottom: -5px;
+        font-family: 'Times New Roman', Times, serif;
+        border: solid red 2px;
+        padding-right: 200px;
+        padding-left: 200px;
     }
 
 }
