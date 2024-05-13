@@ -142,7 +142,8 @@
 
         <p class="experience-text-sub-head">
           <i class="fas fa-laptop-code"></i> Frontend Developer
-          <span class="experience-text">I have experience creating accessible and responsive websites and
+          <span class="experience-text"
+            >I have experience creating accessible and responsive websites and
             applications.
           </span>
         </p>
@@ -166,8 +167,6 @@
     </section>
 
     <section id="projects-section" class="projects-section">
-      
-      
       <div class="project-containers">
         <a
           href="https://galactic-gateway.netlify.app"
@@ -210,7 +209,7 @@
           class="project-description"
           style="display: none"
         >
-        <p class="description-title">Description</p>
+          <p class="description-title">Description</p>
           <p class="description-text">
             Galactic Gateway is your portal to the wonders of the universe.
             Here, users can immerse themselves in a wealth of space-related
@@ -229,14 +228,13 @@
             Using the Link above, explore Galactic Gateway and unlock the
             mysteries of the universe!
           </p>
+        </div>
 
-          </div>
-
-
-          <div     
+        <div
           id="gg-project-software"
           class="project-description"
-          style="display: none">
+          style="display: none"
+        >
           <p class="development-software-title">Development Software</p>
           <p class="developer-type">Back-end</p>
           <p class="developer-tools">
@@ -249,7 +247,6 @@
 
           <p class="developer-type">Hosting</p>
           <p class="developer-tools">Netlify | Render</p>
-          
         </div>
 
         <div
@@ -257,23 +254,24 @@
           class="project-details"
           style="display: none"
         >
-        <p class="details-content">Type: 
-          <span>Website</span>
-        </p>
-        <p class="details-content">Development Status: 
-          <span>Incomplete</span>
-        </p>
-        <p class="details-content">Theme: 
-          <span>Space | Solar System | Planets</span>
-        </p>
-        <p class="details-content">Developed: 
-          <span>Solo</span>
-        </p>
+          <p class="details-content">
+            Type:
+            <span>Website</span>
+          </p>
+          <p class="details-content">
+            Development Status:
+            <span>Incomplete</span>
+          </p>
+          <p class="details-content">
+            Theme:
+            <span>Space | Solar System | Planets</span>
+          </p>
+          <p class="details-content">
+            Developed:
+            <span>Solo</span>
+          </p>
         </div>
       </div>
-
-
-
 
       <div class="project-containers">
         <a
@@ -283,7 +281,10 @@
           ><h1 class="project-title">ReadCycle</h1></a
         >
         <div class="project-img-container">
-          <a href="https://www.youtube.com/watch?v=YvztegUEb8o&t=0s" target="_blank">
+          <a
+            href="https://www.youtube.com/watch?v=YvztegUEb8o&t=0s"
+            target="_blank"
+          >
             <img
               src="https://imgur.com/io5cMqF.png"
               class="project-img"
@@ -317,37 +318,43 @@
           class="project-description"
           style="display: none"
         >
-        <p class="description-title">Description</p>
+          <p class="description-title">Description</p>
           <p class="description-text">
-            The ReadCycle app is a dynamic book exchange platform developed as the final project of the Northcoders bootcamp by a team of six developers.
+            The ReadCycle app is a dynamic book exchange platform developed as
+            the final project of the Northcoders bootcamp by a team of six
+            developers.
           </p>
           <p class="description-text">
-            ReadCycle features automatic location mapping, real-time chat functionality, API interactions, and real-time database synchronization to ensure a seamless user experience.
+            ReadCycle features automatic location mapping, real-time chat
+            functionality, API interactions, and real-time database
+            synchronization to ensure a seamless user experience.
           </p>
 
           <p class="description-text">
-            Users can post books for swapping, search for books using search bars and a built-in map feature, and engage in open-ended discussions via a built-in chat feature. The platform allows users to effortlessly upload books to the database, which are then automatically displayed on the map. Additionally, users can save books to their favorites page and easily delete any books they have uploaded.
+            Users can post books for swapping, search for books using search
+            bars and a built-in map feature, and engage in open-ended
+            discussions via a built-in chat feature. The platform allows users
+            to effortlessly upload books to the database, which are then
+            automatically displayed on the map. Additionally, users can save
+            books to their favorites page and easily delete any books they have
+            uploaded.
           </p>
+        </div>
 
-          </div>
-
-
-          <div     
+        <div
           id="readCycle-project-software"
           class="project-description"
-          style="display: none">
+          style="display: none"
+        >
           <p class="development-software-title">Development Software</p>
           <p class="developer-type">Back-end</p>
-          <p class="developer-tools">
-            Firebase | Axios
-          </p>
+          <p class="developer-tools">Firebase | Axios</p>
 
           <p class="developer-type">Frontend</p>
           <p class="developer-tools">HTML | CSS | React Native | JavaScript</p>
 
           <p class="developer-type">Hosting</p>
           <p class="developer-tools">Expo</p>
-          
         </div>
 
         <div
@@ -355,38 +362,91 @@
           class="project-details"
           style="display: none"
         >
-        <p class="details-content">Type: 
-          <span>App</span>
-        </p>
-        <p class="details-content">Development Status: 
-          <span>Complete</span>
-        </p>
-        <p class="details-content">Theme: 
-          <span>Books | Discussion | Trade</span>
-        </p>
-        <p class="details-content">Developed: 
-          <span>Team of 6</span>
-        </p>
+          <p class="details-content">
+            Type:
+            <span>App</span>
+          </p>
+          <p class="details-content">
+            Development Status:
+            <span>Complete</span>
+          </p>
+          <p class="details-content">
+            Theme:
+            <span>Books | Discussion | Trade</span>
+          </p>
+          <p class="details-content">
+            Developed:
+            <span>Team of 6</span>
+          </p>
         </div>
       </div>
-
-
-
     </section>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .querySelector(".tab-profile-card")
+          .addEventListener("click", function () {
+            document
+              .querySelector("#profile-card-container")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+      });
 
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .querySelector(".tab-about")
+          .addEventListener("click", function () {
+            document
+              .querySelector("#about-section")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+      });
 
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .querySelector(".tab-experience")
+          .addEventListener("click", function () {
+            document
+              .querySelector("#experience-section")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+      });
 
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .querySelector(".tab-projects")
+          .addEventListener("click", function () {
+            document
+              .querySelector("#projects-section")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+      });
 
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .querySelector(".tab-contact")
+          .addEventListener("click", function () {
+            document
+              .querySelector("#footer-section")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+      });
 
-
-
-    <script src="/index.js"></script>
+      function toggleDescription(id) {
+        var x = document.getElementById(id);
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
   </body>
 
   <footer id="footer-section" class="footer-container">
-
-    <h1 class="footer-heading">Get in Touch
+    <h1 class="footer-heading">
+      Get in Touch
       <span class="footer-text">Ready to connect?</span>
     </h1>
 
