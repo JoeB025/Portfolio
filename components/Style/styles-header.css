@@ -1,139 +1,158 @@
-/* Small devices */ 
-
+/* Small devices */
 @media only screen and (max-width: 767px) {
+  /* Hide navigation links by default */
+  .tabs-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
 
-    .tabs-container {
-        padding-inline: 25px;
-        font-size: 10px;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-      }
-    
+  /* Display burger menu icon */
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 50px;
+    cursor: pointer;
+  }
 
-    .tab-git-hub {
-        text-decoration: none;
-    }
-    
-    .introduction {
-        height: 100vh;
-        margin-bottom: -50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-inline: 20px;
-        position: relative;
-        text-align: center;
-    }
-    
-    .main-heading {
-        font-size: 20px;
-        letter-spacing: 3px;
-        font-family:'Times New Roman', Times, serif;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-    
-    .job-role {
-        font-size: 18px;
-        letter-spacing: 3px;
-        margin-bottom: 10px;
-        font-family: 'Times New Roman', Times, serif;
-    }
+  .burger-menu .fa-bars {
+    transition: transform 0.3s;
+  }
 
-    .intro-welcome-text {
-        color: white;
-        font-size: 15px;
-        letter-spacing: 1px;
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-    }
+  .burger-menu.open .fa-bars {
+    transform: rotate(90deg);
+  }
 
-    .intro-text {
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        letter-spacing: 0.5px;
-        font-family: 'Times New Roman', Times, serif;
-        border: solid red 2px;
-        padding-right: 200px;
-        padding-left: 200px;
-    }
+  /* Show navigation links when menu is opened */
+  .tabs-container.show {
+    display: flex;
+    font-size: 16px;
+    line-height: 35px;
+  }
 
+  .introduction {
+    height: 90vh;
+    margin-bottom: -50px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+    position: relative;
+    text-align: center;
+  }
+
+  .main-heading {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .job-role {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .intro-welcome-text {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+  .intro-text {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: "Times New Roman", Times, serif;
+    border: solid red 2px;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
 }
 
-
-
 /* Large devices */
-
 @media only screen and (min-width: 768px) {
+  /* Hide burger menu on larger screens */
+  .burger-menu {
+    display: none;
+  }
 
-    .tabs-container {
-        padding-inline: 25px;
-        font-size: 16px;
-        display: flex;
-        justify-content: flex-end;
-        gap: 30px;
-        margin-top: 20px;
-      }
-    
-    .tab-about:hover,
-    .tab-experience:hover,
-    .tab-projects:hover,
-    .tab-contact:hover,
-    .tab-profile-card:hover,
-    .tab-git-hub:hover {
-        color: rgb(248, 0, 0);
-        cursor: pointer;
-    }
+  /* Display navigation links */
+  .tabs-container {
+    padding-inline: 25px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 20px;
+  }
 
-    .tab-git-hub {
-        text-decoration: none;
-    }
-    
-    .introduction {
-        height: 100vh;
-        margin-bottom: -30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-inline: 20px;
-        position: relative;
-        text-align: center;
-    }
-    
-    .main-heading {
-        font-size: 40px;
-        letter-spacing: 10px;
-        font-family:'Times New Roman', Times, serif;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-    }
-    
-    .job-role {
-        font-size: 22px;
-        letter-spacing: 5px;
-        margin-bottom: 20px;
-        font-family: 'Times New Roman', Times, serif;
-    }
+  .tab-about:hover,
+  .tab-experience:hover,
+  .tab-projects:hover,
+  .tab-contact:hover,
+  .tab-profile-card:hover,
+  .tab-git-hub:hover {
+    color: rgb(248, 0, 0);
+    cursor: pointer;
+  }
 
-    .intro-welcome-text {
-        color: white;
-        font-size: 18px;
-        letter-spacing: 1.5px;
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-    }
+  .tab-git-hub {
+    text-decoration: none;
+  }
 
-    .intro-text {
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        letter-spacing: 0.5px;
-        font-family: 'Times New Roman', Times, serif;
-        border: solid red 2px;
-        padding-right: 200px;
-        padding-left: 200px;
-    }
+  .introduction {
+    height: 100vh;
+    margin-bottom: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+    position: relative;
+    text-align: center;
+  }
 
+  .main-heading {
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .job-role {
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .intro-welcome-text {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+  .intro-text {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: "Times New Roman", Times, serif;
+    border: solid red 2px;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
 }
