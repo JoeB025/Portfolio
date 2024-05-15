@@ -14,7 +14,7 @@
     width: 300px;
     min-width: 250px;
     padding: 10px;
-    margin-bottom: 40px;
+    margin: 20px;
     border-radius: 10px;
   }
   
@@ -55,7 +55,8 @@
   }
   
   .description-title,
-  .development-software-title {
+  .development-software-title,
+  .details-content-title {
     text-align: center;
     font-size: 18px;
     margin-top: -2px;
@@ -141,7 +142,7 @@
   border: rgb(255, 255, 255) 2px solid;
   width: 400px;
   padding: 10px;
-  margin-bottom: 40px;
+  margin: 20px 5px;
   border-radius: 10px;
 }
 
@@ -188,7 +189,8 @@
 }
 
 .description-title,
-.development-software-title {
+.development-software-title,
+.details-content-title {
   text-align: center;
   font-size: 18px;
 }
@@ -207,6 +209,7 @@
   padding-right: 10px;
   text-align: justify;
   margin-bottom: -5px;
+  text-align: center;
 }
 
 .developer-type:hover {
@@ -220,6 +223,7 @@
   text-align: justify;
   line-height: 20px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .details-content {
