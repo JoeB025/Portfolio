@@ -58,6 +58,7 @@
   .development-software-title {
     text-align: center;
     font-size: 18px;
+    margin-top: -2px;
   }
   
   .description-text {
@@ -68,12 +69,14 @@
     line-height: 20px;
   }
   
-  .developer-type {
+  .developer-type,
+  .details-content {
     font-size: 14px;
     padding-left: 10px;
     padding-right: 10px;
     text-align: justify;
     margin-bottom: -5px;
+    text-align: center;
   }
   
   .developer-type:hover {
@@ -87,6 +90,7 @@
     text-align: justify;
     line-height: 20px;
     margin-bottom: 30px;
+    text-align: center;
   }
   
   .details-content {
