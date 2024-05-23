@@ -96,7 +96,7 @@
           </a>
           <a
             class="linkedin"
-            href="https://www.linkedin.com/feed/"
+            href="https://www.linkedin.com/in/joseph-scott-bentley-06b47197/"
             target="_blank"
           >
             <i class="fa-brands fa-linkedin"></i>
@@ -108,8 +108,10 @@
 
         <div class="contact-details-container">
           <h1 class="contact-details-heading">Contact</h1>
-          <p class="contact-details">07746804786</p>
-          <p class="contact-details">jscottbentley@hotmail.com</p>
+          <!-- <p class="contact-details">Contact number on request</p> -->
+          <p class="contact-details">
+            <i class="fa-solid fa-envelope"></i> jscottbentley@hotmail.com
+          </p>
         </div>
       </div>
     </section>
@@ -145,12 +147,12 @@
 
     <section id="experience-section" class="experience-section">
       <div class="experience-container">
-        <h1 class="experience-heading">Experience</h1>
+        <h1 class="experience-heading">Experience:</h1>
 
         <p class="experience-text-sub-head">
           <i class="fas fa-laptop-code"></i> Frontend Developer
           <span class="experience-text"
-            >I have experience creating accessible and responsive websites and
+            >Experience creating accessible and responsive websites and
             applications.
           </span>
         </p>
@@ -158,28 +160,29 @@
         <p class="experience-text-sub-head">
           <i class="fas fa-server"></i> Backend:
           <span class="experience-text"
-            >I have built and tested APIs, and I am experienced in creating and
-            seeding databases.
+            >Built and tested APIs, and I am experienced in creating and seeding
+            databases.
           </span>
         </p>
 
         <p class="experience-text-sub-head">
           <i class="fas fa-users"></i> Paired Programming:
           <span class="experience-text">
-            I have experience in paired programming, agile working practices,
-            and I have demonstrated the ability to work well in a team.
+            Experience in paired programming, agile working practices, and I
+            have demonstrated the ability to work well in a team.
           </span>
         </p>
       </div>
     </section>
 
     <section id="projects-section" class="projects-section">
+      <h1 class="projects-heading">Projects:</h1>
       <div class="project-containers">
         <a
           href="https://galactic-gateway.netlify.app"
           target="_blank"
           class="site-link"
-          ><h1 class="project-title">Galactic Gateway</h1></a
+          ><h2 class="project-title">Galactic Gateway</h2></a
         >
         <div class="project-img-container">
           <a href="https://galactic-gateway.netlify.app" target="_blank">
@@ -302,7 +305,7 @@
           href="https://www.youtube.com/watch?v=YvztegUEb8o&t=0s"
           target="_blank"
           class="site-link"
-          ><h1 class="project-title">ReadCycle</h1></a
+          ><h2 class="project-title">ReadCycle</h2></a
         >
         <div class="project-img-container">
           <a
@@ -421,13 +424,10 @@
           href="https://github.com/JoeB025/nc-news"
           target="_blank"
           class="site-link"
-          ><h1 class="project-title">Nc News</h1></a
+          ><h2 class="project-title">Nc News</h2></a
         >
         <div class="project-img-container">
-          <a
-            href="https://github.com/JoeB025/nc-news"
-            target="_blank"
-          >
+          <a href="https://github.com/JoeB025/nc-news" target="_blank">
             <img
               src="https://imgur.com/YqtWpCf.png"
               class="project-img"
@@ -463,19 +463,23 @@
         >
           <p class="description-title">Description</p>
           <p class="description-text">
-            The Nc News Project is a backend database I developed during my training at Northcoders. It marked my initial venture into building APIs from scratch, and it served as a foundational step in my journey to becoming a proficient developer.
-
-
-
-
-            
+            The Nc News Project is a backend database I developed during my
+            training at Northcoders. It marked my initial venture into building
+            APIs from scratch, and it served as a foundational step in my
+            journey to becoming a proficient developer.
           </p>
           <p class="description-text">
-            I populated the database by seeding it, creating a foundational dataset for the frontend website. To ensure the integrity and functionality of the application, I rigorously tested all data using Test-Driven Development (TDD) practices.
+            I populated the database by seeding it, creating a foundational
+            dataset for the frontend website. To ensure the integrity and
+            functionality of the application, I rigorously tested all data using
+            Test-Driven Development (TDD) practices.
           </p>
 
           <p class="description-text">
-            The project is hosted using Supabase, providing an online platform, and Render is utilized to host the API. With the backend in place, work could now commence on the frontend, leveraging the foundation laid by the Nc News Project. 
+            The project is hosted using Supabase, providing an online platform,
+            and Render is utilized to host the API. With the backend in place,
+            work could now commence on the frontend, leveraging the foundation
+            laid by the Nc News Project.
           </p>
         </div>
 
@@ -486,8 +490,10 @@
         >
           <p class="development-software-title">Development Software</p>
           <p class="developer-type">Back-end</p>
-          <p class="developer-tools">SQL | PostgresSQL | Node.js | Seeding | Test Driven Development
-            (TDD) | Model-View-Controller Architecture (in JavaScript)</p>
+          <p class="developer-tools">
+            SQL | PostgresSQL | Node.js | Seeding | Test Driven Development
+            (TDD) | Model-View-Controller Architecture (in JavaScript)
+          </p>
 
           <p class="developer-type">Frontend</p>
           <p class="developer-tools">N/A</p>
@@ -532,13 +538,115 @@
         </div>
       </div>
 
+      <div class="project-containers">
+        <a
+          href="https://luna-rosa.netlify.app/"
+          target="_blank"
+          class="site-link"
+          ><h2 class="project-title">Luna Rosa</h2></a
+        >
+        <div class="project-img-container">
+          <a href="https://luna-rosa.netlify.app/" target="_blank">
+            <img
+              src="https://imgur.com/XEcmzcX.png"
+              class="project-img"
+              title="Luna Rosa Website Photo"
+            />
+          </a>
+        </div>
+        <div class="project-buttons-container">
+          <button
+            onclick="toggleDescription('luna-rosa-project-description')"
+            class="description-button"
+          >
+            Description
+          </button>
+          <button
+            onclick="toggleDescription('luna-rosa-project-software')"
+            class="software-button"
+          >
+            Software
+          </button>
+          <button
+            onclick="toggleDescription('luna-rosa-details-button')"
+            class="details-button"
+          >
+            Details
+          </button>
+        </div>
 
+        <div
+          id="luna-rosa-project-description"
+          class="project-description"
+          style="display: none"
+        >
+          <p class="description-title">Description</p>
+          <p class="description-text">
+            Indulge in the culinary delights of Luna Rosa, where guests can seamlessly explore our menus and effortlessly navigate through our offerings with a simple scroll or by utilizing the intuitive navigation tabs.
+          </p>
+          <p class="description-text">
+            Experience convenience at your fingertips as I prepare to introduce the option for guests to reserve tables directly through the website using the convenient "Book Tables" links prominently displayed throughout the site.
+          </p>
 
+          <p class="description-text">
+            Luna Rosa is a website for a fictional Italian Restaurant. 
+            The site has been created using HTML, CSS and JavaScript. 
+            Using the Link above, explore Luna Rosa!
+          </p>
+        </div>
 
+        <div
+          id="luna-rosa-project-software"
+          class="project-description"
+          style="display: none"
+        >
+          <p class="development-software-title">Development Software</p>
+          <p class="developer-type">Back-end</p>
+          <p class="developer-tools">
+            N/A
+          </p>
 
+          <p class="developer-type">Frontend</p>
+          <p class="developer-tools">HTML | CSS | JavaScript</p>
 
+          <p class="developer-type">Deployment</p>
+          <p class="developer-tools">Netlify</p>
+        </div>
 
-
+        <div
+          id="luna-rosa-details-button"
+          class="project-details"
+          style="display: none"
+        >
+          <p class="details-content-title">Details</p>
+          <p class="details-content">
+            Type:
+            <span class="details-data">Website</span>
+          </p>
+          <p class="details-content">
+            Link:<a href="https://luna-rosa.netlify.app/" class="details-data">
+              Luna Rosa
+            </a>
+          </p>
+          <p class="details-content">
+            Development Status:
+            <span class="details-data">Incomplete</span>
+          </p>
+          <p class="details-content">
+            Theme:
+            <span class="details-data"
+              >Food | Drinks | Restaurant | Entertainment</span
+            >
+          </p>
+          <p class="details-content">
+            Developed:
+            <span class="details-data">Solo</span>
+          </p>
+          <div class="project-git-links">
+            <a href="https://github.com/JoeB025/Luna-Rosa-">GitHub</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script>
@@ -622,7 +730,7 @@
       <li>
         <i class="fa-brands fa-linkedin"></i>
         <a
-          href="https://www.linkedin.com/feed/"
+          href="https://www.linkedin.com/in/joseph-scott-bentley-06b47197/"
           class="footer-links"
           target="_blank"
           >Joseph Scott-Bentley</a

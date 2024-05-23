@@ -7,6 +7,13 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .projects-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
   
   .project-containers {
     border: rgb(255, 255, 255) 2px solid;
@@ -134,8 +141,14 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  padding: 50px;
-  
+  padding: 50px; 
+}
+
+.projects-heading {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
 }
 
 .project-containers {
